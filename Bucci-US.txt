@@ -1,0 +1,5 @@
+As a user, I want to know which operator provides the recharge and the cost in kw/h, so that I can estimate the costs.
+
+As a merchant, I want to advertise my business near a station and offer to the app users discounts and coupons, so that I can increase the number of my customers.
+
+As a new user, I want to know where are the charging stations closest to me, so that I can recharge my car if necessary.

@@ -1,0 +1,5 @@
+The system shall provide the charging services operators and the related costs in kw/h.
+
+The system shall advertise registered merchant's business near a charging station and provide discounts to users.
+
+The system shall provide charging stations in a range from a specific location.
