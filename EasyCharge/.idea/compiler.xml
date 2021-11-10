@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="EasyCharge" target="16" />
+      <module name="EasyCharge" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

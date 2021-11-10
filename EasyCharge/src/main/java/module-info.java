@@ -1,4 +1,4 @@
-module it.ecteam.easycharge.easycharge {
+module it.ecteam.easycharge {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -10,6 +10,6 @@ module it.ecteam.easycharge.easycharge {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
 
-    opens it.ecteam.easycharge.easycharge to javafx.fxml;
-    exports it.ecteam.easycharge.easycharge;
+    opens it.ecteam.easycharge to javafx.fxml;
+    exports it.ecteam.easycharge;
 }

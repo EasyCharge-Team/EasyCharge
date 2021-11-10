@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="668.0" prefWidth="993.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.ecteam.easycharge.LoginController">
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #66ABEA;" BorderPane.alignment="CENTER">
+         <items>
+            <ImageView fitHeight="40.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/title.png" />
+               </image>
+            </ImageView>
+            <HBox>
+               <children>
+                  <Button fx:id="homeBtn" mnemonicParsing="false" onMouseClicked="#onHomeClick" style="-fx-background-color: #66ABEA;" text="Home" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" style="-fx-background-color: #66ABEA;" text="Route planning" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </items>
+      </ToolBar>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="loginLabel" />
+         </children></AnchorPane>
+   </bottom>
+   <center>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Username:">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Label text="Password:">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <PasswordField>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="loginBtn" contentDisplay="RIGHT" mnemonicParsing="false" onMouseClicked="#onLoginClick" style="-fx-background-color: #66ABEA;" text="Login" textFill="WHITE">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets bottom="200.0" left="200.0" right="200.0" top="200.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+</BorderPane>
